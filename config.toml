@@ -1,17 +1,17 @@
-baseurl             = ""
+baseurl             = "https://intmainreturn0.com"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
 languageCode        = "zh-CN"
 hasCJKLanguage 	    = true
-relativeURLs	    = true
+relativeURLs	    = false
 layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "pixyll"
 author              = "Zheng Luo"
 title               = "int main() { return 0; }"
 pygmentsuseclasses  = true
-disqusshortname     = "htfy96blog" # Comment out to disable Disqus.
+#disqusshortname     = "htfy96blog" # Comment out to disable Disqus.
 pluralizelisttitles = false
 pygmentsCodeFencesGuessSyntax = true
 
