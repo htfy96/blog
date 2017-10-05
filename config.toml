@@ -25,5 +25,9 @@ blog  = "blog/:slug/"
 [params]
   # search_engine = false
   twitter_username = "HTwood96"
-  disqus_shortname = "intmainreturn0-com"
+  #disqus_shortname = "intmainreturn0-com"
+  gitment_owner = "htfy96"
+  gitment_repo = "blog-comments"
+  gitment_id = "b4fe8342582a3995867d"
+  gitment_secret = "e5d893bad1e5afbcceeb5788184a8e29b05aff14"
   paginate = 5
