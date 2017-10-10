@@ -2,6 +2,7 @@
 title: "Correct by Construction"
 date: 2017-10-10T17:16:07+08:00
 draft: false
+type: post
 author: htfy96
 categories:
     - 代码
