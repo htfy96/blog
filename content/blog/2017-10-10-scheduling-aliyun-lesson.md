@@ -1,5 +1,5 @@
 ---
-title: "2017 10 10 Scheduling Aliyun Lesson"
+title: "Scheduling Aliyun Lesson"
 date: 2017-10-10T21:15:20+08:00
 draft: false
 type: post
