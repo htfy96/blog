@@ -27,3 +27,4 @@ blog  = "blog/:slug/"
   twitter_username = "HTwood96"
   disqus_shortname = "intmainreturn0-com"
   paginate = 5
+  cvURL               = "https://intmainreturn0.com/cv"
