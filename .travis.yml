@@ -31,6 +31,7 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.27.1/hugo_0.27.1_Linux-64bit.tar.gz && tar xzf hugo_0.27.1_Linux-64bit.tar.gz
 script:
   - ./hugo -v
+  - echo 'intmainreturn0.com' > ./public/CNAME
 after_success:
   - bash ./deploy.sh
   - cp -r ./public ipfs/staging
