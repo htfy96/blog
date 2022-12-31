@@ -74,6 +74,7 @@ jobs:
           source-directory: public
           destination-github-username: htfy96
           destination-repository-name: htfy96.github.io
+          target-branch: master
         
 
 
