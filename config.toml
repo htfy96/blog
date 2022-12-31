@@ -28,3 +28,4 @@ blog  = "blog/:slug/"
   disqus_shortname = "intmainreturn0-com"
   paginate = 5
   cvURL               = "https://intmainreturn0.com/cv"
+  mainSections = ['post']
