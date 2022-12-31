@@ -58,6 +58,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Set cname
         run: echo 'intmainreturn0.com' > ./public/CNAME
+      - run: touch public/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -70,9 +71,10 @@ jobs:
     steps:
       - name: Push directory to another repository
         uses: cpina/github-action-push-to-another-repository@v1.5.1
-        source-directory: public
-        destination-github-username: htfy96
-        destination-repository-name: htfy96.github.io
+        with:
+          source-directory: public
+          destination-github-username: htfy96
+          destination-repository-name: htfy96.github.io
         
 
 
